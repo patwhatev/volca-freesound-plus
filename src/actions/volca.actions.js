@@ -9,6 +9,7 @@ import {
   SET_RANGE_FIRST,
   SET_RANGE_LAST,
   SET_DURATION_MAX,
+  SET_TAG_QUERY,
   START,
   STOP,
   TOGGLE_DOUBLE_SPEED,
@@ -26,6 +27,7 @@ export const setRange = makeActionCreator(SET_RANGE);
 export const setRangeFirst = makeActionCreator(SET_RANGE_FIRST, 'value');
 export const setRangeLast = makeActionCreator(SET_RANGE_LAST, 'value');
 export const setDurationMax = makeActionCreator(SET_DURATION_MAX, 'value');
+export const setTagQuery = makeActionCreator(SET_TAG_QUERY, 'value');
 
 export const toggleSlot = makeActionCreator(TOGGLE_SLOT, 'index');
 

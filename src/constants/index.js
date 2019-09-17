@@ -19,6 +19,7 @@ export const REQUEST_SOUND = 'REQUEST_SOUND';
 export const REQUEST_SOUNDS = 'REQUEST_SOUNDS';
 export const SELECT_ALL = 'SELECT_ALL';
 export const SET_DURATION_MAX = 'SET_DURATION_MAX';
+export const SET_TAG_QUERY = 'SET_TAG_QUERY';
 export const SET_RANGE = 'SET_RANGE';
 export const SET_RANGE_FIRST = 'SET_RANGE_FIRST';
 export const SET_RANGE_LAST = 'SET_RANGE_LAST';
