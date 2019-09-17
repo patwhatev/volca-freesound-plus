@@ -51,7 +51,7 @@ class Html extends React.PureComponent {
           />
           <meta
             property="og:image"
-            content="https://hisschemoller.github.io/volca-freesound/img/volca_freesound_preview.jpg"
+            content="https://patwhatev.github.io/volca-freesound-plus/img/volca_freesound_preview.jpg"
           />
           {scripts.map(script => (
             <link key={script} rel="preload" href={script} as="script" />
@@ -76,15 +76,15 @@ class Html extends React.PureComponent {
           <script
             dangerouslySetInnerHTML={{ __html: `window.App=${serialize(app)}` }}
           />
-          {scripts.map(script => <script key={script} src={script} />)}
+          {scripts.map(script => (
+            <script key={script} src={script} />
+          ))}
           {config.analytics.googleTrackingId && (
             <script
               dangerouslySetInnerHTML={{
                 __html:
                   'window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;' +
-                  `ga('create','${
-                    config.analytics.googleTrackingId
-                  }','auto');ga('send','pageview')`,
+                  `ga('create','${config.analytics.googleTrackingId}','auto');ga('send','pageview')`,
               }}
             />
           )}
