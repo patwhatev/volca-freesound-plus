@@ -37,7 +37,7 @@ const initialState = {
   count: 0,
   duration: 0,
   durationMax: 1,
-  tagQuery: null,
+  tagQuery: '',
   isDoubleSpeed: false,
   isNormalize: false,
   isPaused: false,
