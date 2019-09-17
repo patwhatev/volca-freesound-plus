@@ -19,9 +19,9 @@ module.exports = {
         },
       },
     ],
-    '@babel/preset-stage-2',
     '@babel/preset-flow',
     '@babel/preset-react',
   ],
+  plugins: ['transform-object-rest-spread'],
   ignore: ['node_modules', 'build'],
 };

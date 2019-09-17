@@ -5,6 +5,7 @@ export const requestSounds = makeActionCreator(REQUEST_SOUNDS, 'query');
 export const receiveSounds = makeActionCreator(RECEIVE_SOUNDS, 'json');
 export const rejectSounds = makeActionCreator(REJECT_SOUNDS, 'error');
 
+/*eslint-disable */
 export default function fetchSounds(payload) {
   return (dispatch, getState) => {
     const state = getState();
@@ -13,14 +14,13 @@ export default function fetchSounds(payload) {
       dispatch(rejectSounds());
     } else {
       const fields = 'id';
-      const filter = `duration:[0 TO ${state.sounds.durationMax}]`;
+      const filter =
+        state.sounds.tagQuery === ''
+          ? `duration:[0 TO ${state.sounds.durationMax}]`
+          : `tag:${state.sounds.tagQuery}%20duration:[0 TO ${state.sounds.durationMax}]`;
       dispatch(requestSounds(query));
       return fetch(
-        `${
-          api.url
-        }search/text/?format=json&query=${query}&page=${page}&page_size=${pageSize}&fields=${fields}&filter=${filter}&token=${
-          api.token
-        }`,
+        `${api.url}search/text/?format=json&query=${query}&page=${page}&page_size=${pageSize}&fields=${fields}&filter=${filter}&token=${api.token}`,
       )
         .then(
           response => response.json(),

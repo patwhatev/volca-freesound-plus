@@ -13,16 +13,12 @@ const rejectRandomSound = makeActionCreator(REJECT_RANDOM_SOUND, 'error');
 export default function fetchRandomSound() {
   return (dispatch, getState) => {
     const state = getState();
-    const fields = 'id,url,name,license,type,duration,username,previews';
-    const filter = `duration:[0 TO ${state.sounds.durationMax}]`;
+    const fields = 'id,url,name,license,type,duration,tag,username,previews';
+    const filter = `tag:${state.sounds.tagQuery},duration:[0 TO ${state.sounds.durationMax}]`;
     const pageNr = Math.floor(Math.random() * state.sounds.count);
     dispatch(requestRandomSound());
     return fetch(
-      `${
-        api.url
-      }search/text/?format=json&query=''&page=${pageNr}&page_size=1&fields=${fields}&filter=${filter}&token=${
-        api.token
-      }`,
+      `${api.url}search/text/?format=json&query=''&page=${pageNr}&page_size=1&fields=${fields}&filter=${filter}&token=${api.token}`,
     )
       .then(
         response => response.json(),
