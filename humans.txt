@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  <Wouter Hisschemöller> -- <Frontend developer>
+
+# THANKS
+
+  <Panagiotis Tigas>
+
+# TECHNOLOGY COLOPHON
+
+  CSS3, HTML5, JavaScript
+  React Starter Kit -- https://reactstarter.com/
+  Syro.js -- https://github.com/ptigas/syro.js
