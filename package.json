@@ -46,7 +46,7 @@
     "sequelize": "^4.37.3",
     "serialize-javascript": "^1.4.0",
     "source-map-support": "^0.5.4",
-    "sqlite3": "^4.0.0",
+    "sqlite3": "^4.1.0",
     "universal-router": "^6.0.0",
     "whatwg-fetch": "^2.0.3"
   },
