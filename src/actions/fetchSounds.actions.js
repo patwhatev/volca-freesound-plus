@@ -15,7 +15,7 @@ export default function fetchSounds(payload) {
     } else {
       const fields = 'id';
       const filter =
-        state.sounds.tagQuery === ''
+        state.sounds.tagQuery === '' || state.sounds.tagQuery === null
           ? `duration:[0 TO ${state.sounds.durationMax}]`
           : `tag:${state.sounds.tagQuery}%20duration:[0 TO ${state.sounds.durationMax}]`;
       dispatch(requestSounds(query));

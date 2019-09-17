@@ -15,6 +15,20 @@ class Footer extends React.PureComponent {
   render() {
     return (
       <div className={s.root}>
+        <span>
+          Current Available Tags: ambiance+ ambience+ ambient+ atmosphere+
+          background+ bass+ beat+ bell+ bird+ birds+ car+ cars+ cinematic+ city+
+          click+ close+ computer+ creepy+ crowd+ dance+ dark+ digital+ door+
+          drone+ drum+ drums+ effect+ electric+ electro+ electronic+ engine+
+          female+ field+ field-recording+ film+ foley+ footsteps+ forest+ fx+
+          game+ girl+ glass+ glitch+ guitar+ hit+ horror+ house+ human+ impact+
+          industrial+ kick+ kitchen+ loop+ machine+ male+ metal+ metallic+
+          motor+ music+ nature+ night+ noise+ open+ opening+ owi+ paper+ people+
+          percussion+ piano+ plastic+ processed+ rain+ recording+ reverb+
+          sample+ scary+ sci-fi+ sfx+ sound+ soundscape+ space+ spooky+ stereo+
+          storm+ street+ synth+ synthesizer+ techno+ thunder+ traffic+ train+
+          vocal+ voice+ walking+ water+ weather+ weird+ wind+ woman+ wood+
+        </span>
         <span className={s.name}>© Wouter Hisschemoller, 2018</span>
         <a className={s.link} href="http://www.hisschemoller.com">
           www.hisschemoller.com

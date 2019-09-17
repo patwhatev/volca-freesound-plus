@@ -14,7 +14,10 @@ export default function fetchRandomSound() {
   return (dispatch, getState) => {
     const state = getState();
     const fields = 'id,url,name,license,type,duration,tag,username,previews';
-    const filter = `tag:${state.sounds.tagQuery},duration:[0 TO ${state.sounds.durationMax}]`;
+    const filter =
+      state.sounds.tagQuery === '' || state.sounds.tagQuery === null
+        ? `duration:[0 TO ${state.sounds.durationMax}]`
+        : `tag:${state.sounds.tagQuery}%20duration:[0 TO ${state.sounds.durationMax}]`;
     const pageNr = Math.floor(Math.random() * state.sounds.count);
     dispatch(requestRandomSound());
     return fetch(

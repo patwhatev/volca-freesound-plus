@@ -87,7 +87,9 @@ class Freesound extends React.PureComponent {
         </Row>
         <Row>
           <span className={s.samplecount}>
-            {count > 0 ? `${count} samples found` : `No samples available.`}
+            {count > 0
+              ? `${count} samples found`
+              : `No samples available, please check tag spelling.`}
           </span>
         </Row>
       </Section>
