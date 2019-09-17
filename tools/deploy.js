@@ -16,9 +16,9 @@ import run from './run';
 // GitHub Pages
 const remote = {
   name: 'github',
-  url: 'https://github.com/hisschemoller/volca-freesound.git',
+  url: 'https://github.com/patwhatev/volca-freesound-plus.git',
   branch: 'gh-pages',
-  website: 'https://hisschemoller.github.io/volca-freesound/',
+  website: 'https://patwhatev.github.io/volca-freesound-plus/',
   static: true,
 };
 
