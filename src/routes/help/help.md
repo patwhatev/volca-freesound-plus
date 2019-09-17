@@ -7,7 +7,7 @@ component: ContentPage
 
 This app downloads random files from the Freesound audio database and transfers them to a Korg Volca Sample connected to the computer's audio output. The app runs in any reasonably modern browser, desktop or mobile, as long as the device has a headphone or audio output. Please find the Volca Freesound app here:
 
-[https://hisschemoller.github.io/volca-freesound/](https://hisschemoller.github.io/volca-freesound/)
+[https://patwhatev.github.io/volca-freesound/](https://patwhatev.github.io/volca-freesound/)
 
 ### Korg Volca Sample
 
@@ -19,20 +19,22 @@ The [Volca Sample](http://www.korg.com/us/products/dj/volca_sample/) is a musica
 
 ## Quick start
 
-1. Open [https://hisschemoller.github.io/volca-freesound/](https://hisschemoller.github.io/volca-freesound/)
+1. Open [https://patwhatev.github.io/volca-freesound/](https://patwhatev.github.io/volca-freesound/)
 2. Set the computer's volume level close to maximum.
 3. For a neutral signal make sure any sound effects or equalizers on the computer are switched off.
 4. Connect the computer's audio output to the Volca 'Sync in' input.
 5. Switch on the Volca.
-6. Press 'Start' on the Volca Freesound page to start the transfer. 
+6. Press 'Start' on the Volca Freesound page to start the transfer.
 
 #### Signs that things work
 
 On the Volca Freesound page
+
 - One of the squares in the grid of sample slots lights up to indicate a transfer is going on to that sample slot.
 - The progress bar shows the percentage of transfer that is done.
 
 On the Volca Sample
+
 - The display switches between the word 'data' and the number of the slot to indicate it's receiving sample data.
 - The various LEDs on the interface pulsate while transferring.
 
@@ -42,7 +44,7 @@ The app fills selected sample slots on the Volca Sample with random sounds from 
 
 #### Freesound sample licences and ownership
 
-Audio files on Freesound can be of any type, WAV, FLAC, OGG etc. The files can only be accessed by registered users. Each sound however has an MP3 preview file that is free to download. It's these MP3 files that are used by this app. So a Freesound account is not necessary. 
+Audio files on Freesound can be of any type, WAV, FLAC, OGG etc. The files can only be accessed by registered users. Each sound however has an MP3 preview file that is free to download. It's these MP3 files that are used by this app. So a Freesound account is not necessary.
 
 To use the audio in published or commercial projects however, the original high quality files might be desirable. It's also important to know that each sound can have its own licence type, with its own restrictions on the use of the sound.
 
@@ -63,8 +65,6 @@ The app will download MP3 files, convert them and tranfer them to the Volca Samp
 You can interrupt the transfer by pressing Stop. The current transfer will continue until finished and then further transfer is halted.
 
 After file transfer is finished the button will appear that lets you download the receipt text file with all the transferred samples' details.
-
-
 
 ## Sample and slot settings
 
@@ -98,10 +98,7 @@ Use new batteries or a power adapter on the Volca Sample.
 
 #### Error CRC
 
-
 #### Error DCOD
-
-
 
 ## About
 

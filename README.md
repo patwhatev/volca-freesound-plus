@@ -4,7 +4,7 @@
 
 This app downloads random files from the Freesound audio database and transfers them to a Korg Volca Sample connected to the computer's audio output. The app runs in any reasonably modern browser, desktop or mobile, as long as the device has a headphone or audio output. Please find the Volca Freesound app here:
 
-[https://hisschemoller.github.io/volca-freesound/](https://hisschemoller.github.io/volca-freesound/)
+[https://patwhatev.github.io/volca-freesound/](https://patwhatev.github.io/volca-freesound/)
 
 Newest version: 1.01 (see change log at the bottom of this page)
 
@@ -22,7 +22,7 @@ The [Volca Sample](http://www.korg.com/us/products/dj/volca_sample/) is a music 
 
 ## Quick start
 
-1.  Open [https://hisschemoller.github.io/volca-freesound/](https://hisschemoller.github.io/volca-freesound/)
+1.  Open [https://patwhatev.github.io/volca-freesound/](https://patwhatev.github.io/volca-freesound/)
 2.  Set the computer's volume level close to maximum.
 3.  For a neutral, clear signal make sure any sound effects or equalizers on the computer are switched off.
 4.  Connect the computer's audio output to the Volca 'Sync in' input.
@@ -34,13 +34,13 @@ The [Volca Sample](http://www.korg.com/us/products/dj/volca_sample/) is a music 
 
 On the Volca Freesound page
 
-* One of the squares in the grid of sample slots lights up to indicate a transfer is going on to that sample slot.
-* The progress bar shows the percentage of transfer that is done.
+- One of the squares in the grid of sample slots lights up to indicate a transfer is going on to that sample slot.
+- The progress bar shows the percentage of transfer that is done.
 
 On the Volca Sample
 
-* The display switches between the word 'data' and the number of the slot to indicate it's receiving sample data.
-* The various LEDs on the interface pulsate while transferring.
+- The display switches between the word 'data' and the number of the slot to indicate it's receiving sample data.
+- The various LEDs on the interface pulsate while transferring.
 
 ## Overview
 
@@ -128,7 +128,7 @@ The app itself is built on [Kriasoft](https://www.kriasoft.com/)'s [React Starte
 
 ## Change log
 
-### v1.01 
+### v1.01
 
 13-01-2019
 
