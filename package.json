@@ -28,7 +28,7 @@
     "isomorphic-style-loader": "^4.0.0",
     "jest-cli": "^22.4.3",
     "jsonwebtoken": "^8.2.0",
-    "node-fetch": "^2.1.1",
+    "node-fetch": "^2.6.7",
     "normalize.css": "^8.0.0",
     "passport": "^0.4.0",
     "passport-facebook": "^2.1.1",
