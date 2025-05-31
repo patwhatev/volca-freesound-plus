@@ -1,8 +1,8 @@
 # Volca Freesound
 
-### Fill the [Korg Volca Sample](http://www.korg.com/us/products/dj/volca_sample/) with random samples from [Freesound.org](https://freesound.org/).
+### Fill the [Korg Volca Sample](http://www.korg.com/us/products/dj/volca_sample/) with tagged samples from [Freesound.org](https://freesound.org/).
 
-This app downloads random files from the Freesound audio database and transfers them to a Korg Volca Sample connected to the computer's audio output. The app runs in any reasonably modern browser, desktop or mobile, as long as the device has a headphone or audio output. Please find the Volca Freesound app here:
+This app downloads files from the Freesound audio database and transfers them to a Korg Volca Sample connected to the computer's audio output. The app runs in any reasonably modern browser, desktop or mobile, as long as the device has a headphone or audio output. Please find the Volca Freesound app here:
 
 [https://patwhatev.github.io/volca-freesound/](https://patwhatev.github.io/volca-freesound/)
 
@@ -21,6 +21,10 @@ The [Volca Sample](http://www.korg.com/us/products/dj/volca_sample/) is a music 
 ![Freesound website](public/img/freesound_screen.png?raw=true 'Freesound website')
 
 ## Quick start
+
+You'll need to pull down this repo and install dependencies - some of the packages referenced are old - use chat GPT or stackoverflow to get yourself over the installation humps.
+
+Typing in a tag will filter specific sounds you'd like to import. For example, set slots 1-10 for "synth" tagged sounds and see what happens. This reigns in a little of the chaos from the original software which truly just imported random samples. Omit tags to use that functionality
 
 1.  Open [https://patwhatev.github.io/volca-freesound/](https://patwhatev.github.io/volca-freesound/)
 2.  Set the computer's volume level close to maximum.
